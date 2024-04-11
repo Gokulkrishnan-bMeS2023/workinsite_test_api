@@ -4,6 +4,10 @@
       "id":1,
       "email":"gokulkrishnan@gmail.com",
       "passsword":"12345678"
+    }, {
+      "id":2,
+      "email":"lavanya@gmail.com",
+      "passsword":"87654321"
     }
   ]
   
