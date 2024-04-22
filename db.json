@@ -2,12 +2,12 @@
   "user": [
     {
       "id":1,
-      "email":"gokulkrishnan@gmail.com",
-      "passsword":"123456789"
+      "email":"gokul@gmail.com",
+      "password":"123456789"
     }, {
       "id":2,
       "email":"lavanya@gmail.com",
-      "passsword":"987654321"
+      "password":"987654321"
     }
   ]
   
