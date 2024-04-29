@@ -1,13 +1,56 @@
 {
   "user": [
+     {
+      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66284",
+      "firstName": "gokul",
+      "lastName": "krishnan",
+      "email": "gokul@gmail.com",
+      "password": "12345678",
+      "UserType": 3,
+      "LoginType": 1,
+      "IsActive": true,
+      "IsVerified": false,
+      "CreatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)",
+      "UpdatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)"
+    },
     {
-      "id":1,
-      "email":"gokul@gmail.com",
-      "password":"123456789"
-    }, {
-      "id":2,
-      "email":"lavanya@gmail.com",
-      "password":"987654321"
+      "id": "62b34966-ecd5-43be-9218-b9aa183e332d",
+      "firstName": "lavanya",
+      "lastName": "lavanya",
+      "email": "lavanya@gmail.com",
+      "password": "87654321",
+      "UserType": 3,
+      "LoginType": 1,
+      "IsActive": true,
+      "IsVerified": false,
+      "CreatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)",
+      "UpdatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66285",
+      "firstName": "gokul",
+      "lastName": "krishnan",
+      "email": "gokul47@gmail.com",
+      "password": "12345678",
+      "UserType": 3,
+      "LoginType": 2,
+      "IsActive": false,
+      "IsVerified": false,
+      "CreatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)",
+      "UpdatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": "62b34966-ecd5-43be-9218-b9aa183e333d",
+      "firstName": "lavanya",
+      "lastName": "lavanya",
+      "email": "lavanya01@gmail.com",
+      "password": "87654321",
+      "UserType": 3,
+      "LoginType": 2,
+      "IsActive": true,
+      "IsVerified": false,
+      "CreatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)",
+      "UpdatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)"
     }
   ]
   
