@@ -10,7 +10,7 @@
       "UserType": 3,
       "LoginType": 1,
       "IsActive": true,
-      "IsVerified": false,
+      "IsVerified": true,
       "CreatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)",
       "UpdatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)"
     },
@@ -23,12 +23,12 @@
       "UserType": 3,
       "LoginType": 1,
       "IsActive": true,
-      "IsVerified": false,
+      "IsVerified": true,
       "CreatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)",
       "UpdatedAt": "Mon Apr 29 2024 14:37:32 GMT+0530 (India Standard Time)"
     }, 
     {
-      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66284",
+      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66222",
       "firstName": "gokul7",
       "lastName": "krishnan7",
       "email": "gokul47@gmail.com",
@@ -41,7 +41,7 @@
       "UpdatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)"
     },
     {
-      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66284",
+      "id": "f341cc0e-3bcd-454e-8a39-fc2d96d66211",
       "firstName": "kutty",
       "lastName": "krishnan",
       "email": "gokul@kuttygmail.com",
@@ -53,7 +53,7 @@
       "CreatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)",
       "UpdatedAt": "Mon Apr 29 2024 14:35:59 GMT+0530 (India Standard Time)"
     },
-     {"id":"7867d798-8a05-4f77-ae15-72538db54722","firstName":"Sharleen","lastName":"Shepherd","email":"sshepherd0@mtv.com","password":"hE3}wv*?bj&UXR(","UserType":3,"LoginType":2,"IsActive":true,"IsVerified":false,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
+     {"id":"7867d798-8a05-4f77-ae15-72538db54722","firstName":"Sharleen","lastName":"Shepherdjk","email":"sshepherd0@mtv.com","password":"hE3}wv*?bj&UXR(","UserType":3,"LoginType":2,"IsActive":true,"IsVerified":false,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
 {"id":"b168170c-f69b-4781-bfde-34dea410c13f","firstName":"Andres","lastName":"Eakin","email":"aeakin1@meetup.com","password":"eH5_4}u?2g5","UserType":1,"LoginType":1,"IsActive":true,"IsVerified":false,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
 {"id":"1554347a-388b-4089-ac05-1f5f1a754bf6","firstName":"Kirsten","lastName":"Sprakes","email":"ksprakes2@irs.gov","password":"oH7$Ar?F>mTI6{>!","UserType":3,"LoginType":2,"IsActive":false,"IsVerified":true,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
 {"id":"a4b87b1c-02f9-41f8-ad37-8c4ad6ca37e4","firstName":"Kirbee","lastName":"Varey","email":"kvarey3@pbs.org","password":"iV7@G|S`s","UserType":3,"LoginType":1,"IsActive":true,"IsVerified":true,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
