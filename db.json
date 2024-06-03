@@ -103,6 +103,8 @@
 {"id":"6b2bae7b-1a84-4877-8676-699def556f63","firstName":"Elwood","lastName":"Jacquemy","email":"ejacquemy1a@multiply.com","password":"eJ2?JoB=@/,\\HtZ","UserType":2,"LoginType":2,"IsActive":false,"IsVerified":true,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
 {"id":"039b23bf-2323-4685-92bd-ab3eb2e5bca9","firstName":"Izabel","lastName":"Childerley","email":"ichilderley1b@nih.gov","password":"cI0#F'K&\\}","UserType":1,"LoginType":1,"IsActive":false,"IsVerified":true,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
 {"id":"38a305c4-1db4-43d8-af94-b75c4f853742","firstName":"Kippy","lastName":"Doughty","email":"kdoughty1c@digg.com","password":"kG1>y59}p'\\","UserType":1,"LoginType":1,"IsActive":false,"IsVerified":true,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"},
-{"id":"5a1306b0-7632-4bb5-9d84-a8918daa848f","firstName":"Tracey","lastName":"Fardell","email":"tfardell1d@zdnet.com","password":"vN6_Ud9D_P39_zDx","UserType":2,"LoginType":1,"IsActive":true,"IsVerified":false,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"}]
+{"id":"5a1306b0-7632-4bb5-9d84-a8918daa848f","firstName":"Tracey","lastName":"Fardell","email":"tfardell1d@zdnet.com","password":"vN6_Ud9D_P39_zDx","UserType":2,"LoginType":1,"IsActive":true,"IsVerified":false,"CreatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)","UpdatedAt":"Mon Apr 29 2024 00:00:00 GMT+0000 (UTC)"}
+],
+"dsc":[]
   
 }
