@@ -1,27 +1,151 @@
 {
-  "user": 
-  [{
-    "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com"
-  }
+  "user": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
   ],
-"dsc":[],
-"workerCategory":[],
-"Material":[],
-"Purchase":[],
-"Unit":[
-  {
-    "id": 1,
-    "name": "Unit 1"
-  },
-  {
-    "id": 2,
-    "name": "Unit 2"
-  },
-  {
-    "id": 3,
-    "name": "Unit 3"
-  }
-]
+  "dsc": [],
+  "workerCategory": [
+    {
+      "workerCategoryName": "carpenter",
+      "workerRole": [
+        {
+          "workerRole": "Senior Carpenter",
+          "salaryPerShift": "1500",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Junior Carpenter",
+          "salaryPerShift": "1000",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Woodworker",
+          "salaryPerShift": "800",
+          "hoursPerShift": "8"
+        }
+      ],
+      "workType": [
+        "Furniture making",
+        "Wooden framing",
+        "Cabinet installation"
+      ],
+      "note": "\"Experienced carpenters\"",
+      "id": 2
+    },
+    {
+      "workerCategoryName": "electrician",
+      "workerRole": [
+        {
+          "workerRole": "Senior Electrician",
+          "salaryPerShift": "1600",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Apprentice Electrician",
+          "salaryPerShift": "900",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Helper",
+          "salaryPerShift": "500",
+          "hoursPerShift": "8"
+        }
+      ],
+      "workType": [
+        "Wiring installation",
+        "Electrical repairs",
+        "Lighting setup"
+      ],
+      "note": "\"Certified electricians\"",
+      "id": 3
+    },
+    {
+      "workerCategoryName": "painter",
+      "workerRole": [
+        {
+          "workerRole": "Professional Painter",
+          "salaryPerShift": "1400",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Assistant Painter",
+          "salaryPerShift": "850",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Surface Preparer",
+          "salaryPerShift": "600",
+          "hoursPerShift": "8"
+        }
+      ],
+      "workType": ["Interior painting", "Exterior painting", "Spray painting"],
+      "note": "\"Skilled painters\"",
+      "id": 4
+    },
+    {
+      "workerCategoryName": "plumber",
+      "workerRole": [
+        {
+          "workerRole": "Master Plumber",
+          "salaryPerShift": "1700",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Journeyman Plumber",
+          "salaryPerShift": "1100",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Plumbing Helper",
+          "salaryPerShift": "600",
+          "hoursPerShift": "8"
+        }
+      ],
+      "workType": ["Pipe fitting", "Leak repairs", "Bathroom installation"],
+      "note": "\"Experienced plumbing team\"",
+      "id": 5
+    },
+    {
+      "workerCategoryName": "welder",
+      "workerRole": [
+        {
+          "workerRole": "Senior Welder",
+          "salaryPerShift": "1800",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Junior Welder",
+          "salaryPerShift": "1200",
+          "hoursPerShift": "8"
+        },
+        {
+          "workerRole": "Welding Helper",
+          "salaryPerShift": "700",
+          "hoursPerShift": "8"
+        }
+      ],
+      "workType": ["Metal fabrication", "Pipe welding", "Structural welding"],
+      "note": "\"Certified welders\"",
+      "id": 6
+    }
+  ],
+  "Material": [],
+  "Purchase": [],
+  "Unit": [
+    {
+      "id": 1,
+      "name": "Unit 1"
+    },
+    {
+      "id": 2,
+      "name": "Unit 2"
+    },
+    {
+      "id": 3,
+      "name": "Unit 3"
+    }
+  ]
 }
