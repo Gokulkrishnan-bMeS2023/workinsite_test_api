@@ -137,15 +137,23 @@
   "Unit": [
     {
       "id": 1,
-      "name": "Unit 1"
+      "name": "Sqft"
     },
     {
       "id": 2,
-      "name": "Unit 2"
+      "name": "Kg"
     },
     {
       "id": 3,
-      "name": "Unit 3"
+      "name": "Litre"
+    },
+    {
+      "id": 4,
+      "name": "Meter"
+    },
+    {
+      "id": 5,
+      "name": "Nos"
     }
   ]
 }
