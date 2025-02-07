@@ -132,6 +132,44 @@
       "id": 6
     }
   ],
+  "WorkType": [
+    {
+      "name": "Furniture making",
+      "id": 1
+    },
+    {
+      "name": "Wooden framing",
+      "id": 2
+    },
+    {
+      "name": "Cabinet installation",
+      "id": 3
+    },
+    {
+      "name": "Wiring installation",
+      "id": 4
+    },
+    {
+      "name": "Electrical repairs",
+      "id": 5
+    },
+    {
+      "name": "Lighting setup",
+      "id": 6
+    },
+    {
+      "name": "Interior painting",
+      "id": 7
+    },
+    {
+      "name": "Exterior painting",
+      "id": 8
+    },
+    {
+      "name": "Spray painting",
+      "id": 9
+    }
+  ],
   "Material": [],
   "Purchase": [],
   "Unit": [
