@@ -170,7 +170,26 @@
       "id": 9
     }
   ],
-  "workerRateAbstract": [],
+  "workerRateAbstract": [
+    {
+      "siteId": "3",
+      "workTypeId": "2",
+      "unitId": "2",
+      "totalRate": "100000",
+      "totalQuantity": "2000",
+      "notes": "add some notes about this site",
+      "id": 1
+    },
+    {
+      "siteId": "4",
+      "workTypeId": "3",
+      "unitId": "1",
+      "totalRate": "200000",
+      "totalQuantity": "2500",
+      "notes": "add some notes about this site",
+      "id": 2
+    }
+  ],
   "Material": [
     {
       "name": "Bricks",
