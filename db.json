@@ -172,8 +172,10 @@
   ],
   "workerRateAbstract": [
     {
+      "siteName": "Erode Site",
       "siteId": "3",
       "workTypeId": "2",
+      "workTypeName": "Wooden framing",
       "unitId": "2",
       "totalRate": "100000",
       "totalQuantity": "2000",
@@ -181,8 +183,10 @@
       "id": 1
     },
     {
+      "siteName": "Chennai Site",
       "siteId": "4",
       "workTypeId": "3",
+      "workTypeName": "Cabinet installation",
       "unitId": "1",
       "totalRate": "200000",
       "totalQuantity": "2500",
