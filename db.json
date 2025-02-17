@@ -1,28 +1,20 @@
 {
-  "user": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com"
-    }
-  ],
-  "dsc": [],
   "workerCategory": [
     {
       "workerCategoryName": "carpenter",
       "workerRole": [
         {
-          "workerRole": "Senior Carpenter",
+          "name": "Senior Carpenter",
           "salaryPerShift": "1500",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Junior Carpenter",
+          "name": "Junior Carpenter",
           "salaryPerShift": "1000",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Woodworker",
+          "name": "Woodworker",
           "salaryPerShift": "800",
           "hoursPerShift": "8"
         }
