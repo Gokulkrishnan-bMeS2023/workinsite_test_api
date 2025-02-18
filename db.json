@@ -31,17 +31,17 @@
       "workerCategoryName": "electrician",
       "workerRole": [
         {
-          "workerRole": "Senior Electrician",
+          "name": "Senior Electrician",
           "salaryPerShift": "1600",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Apprentice Electrician",
+          "name": "Apprentice Electrician",
           "salaryPerShift": "900",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Helper",
+          "name": "Helper",
           "salaryPerShift": "500",
           "hoursPerShift": "8"
         }
@@ -58,17 +58,17 @@
       "workerCategoryName": "painter",
       "workerRole": [
         {
-          "workerRole": "Professional Painter",
+          "name": "Professional Painter",
           "salaryPerShift": "1400",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Assistant Painter",
+          "name": "Assistant Painter",
           "salaryPerShift": "850",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Surface Preparer",
+          "name": "Surface Preparer",
           "salaryPerShift": "600",
           "hoursPerShift": "8"
         }
@@ -81,17 +81,17 @@
       "workerCategoryName": "plumber",
       "workerRole": [
         {
-          "workerRole": "Master Plumber",
+          "name": "Master Plumber",
           "salaryPerShift": "1700",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Journeyman Plumber",
+          "name": "Journeyman Plumber",
           "salaryPerShift": "1100",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Plumbing Helper",
+          "name": "Plumbing Helper",
           "salaryPerShift": "600",
           "hoursPerShift": "8"
         }
@@ -104,17 +104,17 @@
       "workerCategoryName": "welder",
       "workerRole": [
         {
-          "workerRole": "Senior Welder",
+          "name": "Senior Welder",
           "salaryPerShift": "1800",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Junior Welder",
+          "name": "Junior Welder",
           "salaryPerShift": "1200",
           "hoursPerShift": "8"
         },
         {
-          "workerRole": "Welding Helper",
+          "name": "Welding Helper",
           "salaryPerShift": "700",
           "hoursPerShift": "8"
         }
