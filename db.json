@@ -297,5 +297,51 @@
       "quantity": "1000",
       "id": 3
     }
+  ],
+  "WorkMode": [
+    { "id": 1, "isActive": false, "name": "Regular", "note": "First Entry" },
+    { "id": 2, "isActive": true, "name": "Overtime", "note": "First Entry" },
+    { "id": 3, "isActive": false, "name": "Rework", "note": "First Entry" },
+    {
+      "id": 4,
+      "isActive": true,
+      "name": "Night Shift",
+      "note": "Second Entry"
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "name": "Weekend Work",
+      "note": "Second Entry"
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "name": "Emergency Task",
+      "note": "Second Entry"
+    }
+  ],
+  "Shift": [
+    { "id": 1, "isActive": false, "name": "Half Day", "note": "Morning Shift" },
+    { "id": 2, "isActive": true, "name": "Full Day", "note": "Standard Shift" },
+    { "id": 3, "isActive": false, "name": "1.5 Day", "note": "Extended Shift" },
+    {
+      "id": 4,
+      "isActive": true,
+      "name": "Night Shift",
+      "note": "Overnight Work"
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "name": "Weekend Shift",
+      "note": "Saturday & Sunday"
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "name": "On-Call",
+      "note": "Emergency Availability"
+    }
   ]
 }
