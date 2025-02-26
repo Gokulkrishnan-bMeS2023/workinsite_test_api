@@ -343,5 +343,6 @@
       "name": "On-Call",
       "note": "Emergency Availability"
     }
-  ]
+  ],
+  "Attendance": []
 }
