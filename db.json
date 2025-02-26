@@ -344,5 +344,19 @@
       "note": "Emergency Availability"
     }
   ],
-  "Attendance": []
+  "Attendance": [],
+  "WageType": [
+    {
+      "id": 1,
+      "name": "Rate Work"
+    },
+    {
+      "id": 2,
+      "name": "NMR"
+    },
+    {
+      "id": 3,
+      "name": "Others"
+    }
+  ]
 }
