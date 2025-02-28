@@ -186,49 +186,7 @@
       "id": 2
     }
   ],
-  "Material": [
-    {
-      "name": "Bricks",
-      "unitId": 5,
-      "hsnCode": "11111",
-      "id": 1
-    },
-    {
-      "name": "Steel",
-      "unitId": 5,
-      "hsnCode": "22222",
-      "id": 2
-    },
-    {
-      "name": "Wood",
-      "unitId": 5,
-      "hsnCode": "33333",
-      "id": 3
-    }
-  ],
   "Purchase": [],
-  "Unit": [
-    {
-      "id": 1,
-      "name": "Sqft"
-    },
-    {
-      "id": 2,
-      "name": "Kg"
-    },
-    {
-      "id": 3,
-      "name": "Litre"
-    },
-    {
-      "id": 4,
-      "name": "Meter"
-    },
-    {
-      "id": 5,
-      "name": "Nos"
-    }
-  ],
   "PurchaseMaterial": [
     {
       "materialId": 1,
@@ -357,6 +315,28 @@
     {
       "id": 3,
       "name": "Others"
+    }
+  ],
+  "WorkerRole": [
+    {
+      "id": 1,
+      "name": "Mason"
+    },
+    {
+      "id": 2,
+      "name": "Woman Mazdoor"
+    },
+    {
+      "id": 3,
+      "name": "Male Masdoor"
+    },
+    {
+      "id": 4,
+      "name": "Painter"
+    },
+    {
+      "id": 5,
+      "name": "Helper"
     }
   ]
 }
