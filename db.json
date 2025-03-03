@@ -186,7 +186,105 @@
       "id": 2
     }
   ],
-  "Purchase": [],
+  "Purchase": [
+    {
+      "billNo": "1",
+      "supplierId": 10,
+      "siteId": 3,
+      "date": "01.02.2025",
+      "totalAmount": 20000,
+      "gst": 22,
+      "additionalCharges": null,
+      "discount": null,
+      "notes": "",
+      "purchaseMaterials": [
+        {
+          "materialId": "9",
+          "quantity": "100",
+          "rate": "10",
+          "additionalCharges": "",
+          "discount": "",
+          "receivedQuality": "",
+          "receivedDate": "",
+          "receivedQty": "",
+          "notes": ""
+        },
+        {
+          "materialId": "8",
+          "quantity": "2000",
+          "rate": "20",
+          "additionalCharges": "",
+          "discount": "",
+          "receivedQuality": "",
+          "receivedDate": "",
+          "receivedQty": "",
+          "notes": ""
+        }
+      ],
+      "id": 1
+    },
+    {
+      "billNo": "2",
+      "supplierId": 5,
+      "siteId": 4,
+      "date": "02.03.2025",
+      "totalAmount": 5000,
+      "gst": 12,
+      "additionalCharges": null,
+      "discount": null,
+      "notes": "",
+      "purchaseMaterials": [
+        {
+          "materialId": "7",
+          "quantity": "100",
+          "rate": "50",
+          "additionalCharges": "",
+          "discount": "",
+          "receivedQuality": "",
+          "receivedDate": "",
+          "receivedQty": "",
+          "notes": ""
+        }
+      ],
+      "id": 2
+    },
+    {
+      "billNo": "3",
+      "supplierId": 25,
+      "siteId": 2,
+      "date": "20.02.2025",
+      "totalAmount": 30000,
+      "gst": 12,
+      "additionalCharges": null,
+      "discount": null,
+      "notes": "",
+      "purchaseMaterials": [
+        {
+          "materialId": "9",
+          "quantity": "2000",
+          "rate": "30",
+          "additionalCharges": "",
+          "discount": "",
+          "receivedQuality": "",
+          "receivedDate": "",
+          "receivedQty": "",
+          "notes": ""
+        },
+        {
+          "materialId": "8",
+          "quantity": "5000",
+          "rate": "15",
+          "additionalCharges": "",
+          "discount": "",
+          "receivedQuality": "",
+          "receivedDate": "",
+          "receivedQty": "",
+          "notes": ""
+        }
+      ],
+      "id": 3
+    }
+  ],
   "PurchaseMaterial": [
     {
       "materialId": 1,
@@ -209,25 +307,44 @@
   ],
   "MaterialUsed": [
     {
-      "date": "08.02.2025",
-      "siteId": 1,
-      "materialId": 1,
-      "quantity": "500",
-      "id": 1
+      "siteId": 5,
+      "materialId": 9,
+      "quantity": 500,
+      "notes": "",
+      "date": "20.02.2025",
+      "id": 1,
+      "materialName": "Steel",
+      "siteName": "Erode Site R"
     },
     {
-      "date": "10.02.2025",
-      "siteId": 2,
-      "materialId": 2,
-      "quantity": "2000",
-      "id": 2
+      "siteId": 4,
+      "materialId": 8,
+      "quantity": 1000,
+      "notes": "",
+      "date": "21.02,2025",
+      "id": 5,
+      "materialName": "Bricks",
+      "siteName": "Chennai Site S"
     },
     {
-      "date": "12.02.2025",
-      "siteId": 3,
-      "materialId": 3,
-      "quantity": "1000",
-      "id": 3
+      "siteId": 8,
+      "materialId": 7,
+      "quantity": 120,
+      "notes": "",
+      "date": "22.02.2025",
+      "id": 6,
+      "materialName": "Cement",
+      "siteName": "Gk"
+    },
+    {
+      "siteId": 6,
+      "materialId": 8,
+      "quantity": 750,
+      "notes": "",
+      "date": "23.02.2025",
+      "id": 7,
+      "materialName": "Bricks",
+      "siteName": "Lavanya"
     }
   ],
   "MaterialShifted": [
