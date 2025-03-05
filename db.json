@@ -419,7 +419,38 @@
       "note": "Emergency Availability"
     }
   ],
-  "Attendance": [],
+  "Attendance": [
+    {
+      "date": "03/05/2025",
+      "siteId": "3",
+      "siteName": "Erode Site",
+      "wageTypeName": "Rate Work",
+      "workTypeName": "Furniture making",
+      "worker": "gokul",
+      "wageTypeId": "1",
+      "workTypeId": "1",
+      "workerId": "6",
+      "workedQuantity": "25",
+      "unitId": "16",
+      "shiftId": "2",
+      "workModeId": "1",
+      "notes": "hi",
+      "attendanceSplit": [
+        {
+          "workerRoleId": "3",
+          "noOfPersons": "2"
+        }
+      ],
+      "uploadedImages": [
+        {
+          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_c8316675-da4a-4b0c-aad8-272ac20963d0.jpg",
+          "type": "image/jpeg",
+          "name": "1000000040.jpg"
+        }
+      ],
+      "id": 1
+    }
+  ],
   "WageType": [
     {
       "id": 1,
