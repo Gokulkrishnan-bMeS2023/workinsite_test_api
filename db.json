@@ -349,27 +349,30 @@
   ],
   "MaterialShifted": [
     {
-      "date": "08.02.2025",
-      "materialId": 1,
-      "sourceSiteId": 1,
+      "date": "2025-03-04",
+      "materialId": 8,
+      "sourceSiteId": 3,
       "targetSiteId": 4,
-      "quantity": "500",
+      "quantity": 100000,
+      "notes": "",
       "id": 1
     },
     {
-      "date": "10.02.2025",
-      "materialId": 2,
-      "sourceSiteId": 1,
-      "targetSiteId": 2,
-      "quantity": "2000",
+      "date": "2025-03-05",
+      "materialId": 9,
+      "sourceSiteId": 2,
+      "targetSiteId": 6,
+      "quantity": 30000,
+      "notes": "",
       "id": 2
     },
     {
-      "date": "12.02.2025",
-      "materialId": 3,
-      "sourceSiteId": 2,
-      "targetSiteId": 3,
-      "quantity": "1000",
+      "date": "2025-03-06",
+      "materialId": 7,
+      "sourceSiteId": 8,
+      "targetSiteId": 5,
+      "quantity": 2000,
+      "notes": "",
       "id": 3
     }
   ],
