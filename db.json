@@ -427,359 +427,129 @@
     }
   ],
   "Attendance": [
-    {
-      "date": "2025-03-06",
-      "siteId": "3",
-      "siteName": "Erode Site",
-      "wageTypeName": "Rate Work",
-      "workTypeName": "Furniture making",
-      "worker": "gokul",
-      "wageTypeId": "1",
-      "workTypeId": "1",
-      "workerId": "6",
-      "workedQuantity": "25",
-      "unitId": "16",
-      "shiftId": "2",
-      "workModeId": "1",
-      "notes": "hi",
-      "attendanceSplit": [
-        {
-          "workerRoleId": "3",
-          "noOfPersons": "2"
-        }
-      ],
-      "uploadedImages": [
-        {
-          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_c8316675-da4a-4b0c-aad8-272ac20963d0.jpg",
-          "type": "image/jpeg",
-          "name": "1000000040.jpg"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "date": "2025-03-06",
-      "site": {
-        "id": 3,
-        "name": "Erode Site",
-        "client": {
-          "id": 12,
-          "name": "Kumar",
-          "note": "",
-          "contact": {
-            "id": 148,
-            "name": "Vicky P",
-            "contactDetails": [
-              {
-                "contactType": "Phone",
-                "value": "8946321650"
-              },
-              {
-                "contactType": "Phone",
-                "value": "9045789871"
-              },
-              {
-                "contactType": "Phone",
-                "value": "1111111111"
-              },
-              {
-                "contactType": "Email",
-                "value": "vicky@gmail.com"
-              },
-              {
-                "contactType": "Address",
-                "value": "68/169, Amman street, Erode, 638312"
-              }
-            ]
-          },
-          "kycDetails": [
-            {
-              "kycType": "AADHAAR",
-              "value": "216167293627"
-            },
-            {
-              "kycType": "PAN",
-              "value": "ABCTY1234D"
-            },
-            {
-              "kycType": "GST",
-              "value": "22ABCTY1234D1Z5"
-            }
-          ]
-        },
-        "googleLocation": "https://maps.app.goo.gl/o67GefJLS4WfxFtB89",
-        "contact": {
-          "id": 157,
-          "name": "Kumar V A",
-          "contactDetails": [
-            {
-              "contactType": "Phone",
-              "value": "9854621374"
-            },
-            {
-              "contactType": "Phone",
-              "value": "9846521398"
-            },
-            {
-              "contactType": "Email",
-              "value": "kumar@gmail.com"
-            },
-            {
-              "contactType": "Address",
-              "value": "5/12 MG Road, Coimbatore - 641001"
-            }
-          ]
-        },
-        "note": "Next month starts",
-        "supervisors": [
-          {
-            "id": 83,
-            "name": "Gokul",
-            "phone": "9846521332",
-            "language": "ta",
-            "role": {
-              "id": 3,
-              "name": "Supervisor"
-            },
+    [
+      {
+        "date": "2025-03-06",
+        "site": {
+          "id": 3,
+          "name": "Erode Site",
+          "client": {
+            "id": 12,
+            "name": "Kumar",
             "note": "",
-            "isActive": true
-          },
-          {
-            "id": 84,
-            "name": "Dinesh Kumar",
-            "phone": "9846513287",
-            "language": "ta",
-            "role": {
-              "id": 3,
-              "name": "Supervisor"
-            },
-            "note": "",
-            "isActive": true
-          },
-          {
-            "id": 82,
-            "name": "Dinesh",
-            "phone": "9864512878",
-            "language": "ta",
-            "role": {
-              "id": 3,
-              "name": "Supervisor"
-            },
-            "note": null,
-            "isActive": true
-          }
-        ],
-        "status": "Yet to start"
-      },
-      "wageType": {
-        "id": 1,
-        "name": "Rate Work"
-      },
-      "workType": {
-        "name": "compound wall",
-        "id": 10
-      },
-      "worker": {
-        "id": 5,
-        "name": "Arjun Kumar",
-        "gender": "MALE",
-        "dateOfBirth": "22/07/1985",
-        "workerCategory": {
-          "id": 9,
-          "isActive": true,
-          "workerCategoryName": "Painter",
-          "note": ""
-        },
-        "contact": {
-          "id": 157,
-          "name": "Kumar V A",
-          "contactDetails": [
-            {
-              "contactType": "Phone",
-              "value": "9854621374"
-            },
-            {
-              "contactType": "Phone",
-              "value": "9846521398"
-            },
-            {
-              "contactType": "Email",
-              "value": "kumar@gmail.com"
-            },
-            {
-              "contactType": "Address",
-              "value": "5/12 MG Road, Coimbatore - 641001"
+            "contact": {
+              "id": 148,
+              "name": "Vicky P",
+              "contactDetails": [
+                { "contactType": "Phone", "value": "8946321650" },
+                { "contactType": "Email", "value": "vicky@gmail.com" }
+              ]
             }
-          ]
+          },
+          "status": "Yet to start"
         },
-        "kycDetails": [
-          {
-            "kycType": "AADHAAR",
-            "value": "216167293627"
-          },
-          {
-            "kycType": "PAN",
-            "value": "ABCTY1234D"
-          },
-          {
-            "kycType": "GST",
-            "value": "22ABCTY1234D1Z5"
-          }
-        ],
-        "bankAccounts": [
-          {
-            "accountName": "Arjun",
-            "accountNumber": "987897564313165494",
-            "ifscCode": "SBIN0001234"
-          },
-          {
-            "accountName": "Kumar",
-            "accountNumber": "987132654987978978",
-            "ifscCode": "SBIN0001234"
-          }
-        ],
-        "upiDetails": [
-          {
-            "upiType": "GPAY",
-            "value": "9865413265"
-          },
-          {
-            "upiType": "UPI_ID",
-            "value": "arjun@oksbi"
-          },
-          {
-            "upiType": "PHONEPE",
-            "value": "8975413567"
-          }
-        ],
-        "note": "",
-        "isActive": true
+        "wageType": { "id": 1, "name": "Rate Work" },
+        "workType": { "id": 10, "name": "Compound Wall" },
+        "worker": { "id": 5, "name": "Arjun Kumar" },
+        "workedQuantity": "25",
+        "unit": { "id": 26, "name": "sqft" },
+        "shift": { "id": 2, "name": "Full Day" },
+        "workMode": { "id": 1, "name": "Regular" },
+        "notes": "hi",
+        "attendanceSplit": [{ "workerRoleId": "3", "noOfPersons": "2" }],
+        "id": 5
       },
-      "workedQuantity": "25",
-      "unit": {
-        "id": 26,
-        "isActive": true,
-        "name": "sqft",
-        "note": null
+      {
+        "date": "2025-03-07",
+        "site": {
+          "id": 4,
+          "name": "Coimbatore Site",
+          "client": {
+            "id": 15,
+            "name": "Ravi",
+            "contact": {
+              "id": 149,
+              "name": "Ravi S",
+              "contactDetails": [
+                { "contactType": "Phone", "value": "8888888888" },
+                { "contactType": "Email", "value": "ravi@gmail.com" }
+              ]
+            }
+          },
+          "status": "In Progress"
+        },
+        "wageType": { "id": 2, "name": "Hourly Work" },
+        "workType": { "id": 11, "name": "Plastering" },
+        "worker": { "id": 6, "name": "Ramesh" },
+        "workedQuantity": "30",
+        "unit": { "id": 27, "name": "sqmt" },
+        "shift": { "id": 3, "name": "Half Day" },
+        "workMode": { "id": 2, "name": "Extra Work" },
+        "notes": "urgent work",
+        "attendanceSplit": [{ "workerRoleId": "4", "noOfPersons": "3" }],
+        "id": 6
       },
-      "shift": {
-        "id": 2,
-        "isActive": true,
-        "name": "Full Day",
-        "note": "Standard Shift"
+      {
+        "date": "2025-03-08",
+        "site": {
+          "id": 5,
+          "name": "Salem Site",
+          "client": {
+            "id": 20,
+            "name": "Suresh",
+            "contact": {
+              "id": 160,
+              "name": "Suresh B",
+              "contactDetails": [
+                { "contactType": "Phone", "value": "7777777777" },
+                { "contactType": "Email", "value": "suresh@gmail.com" }
+              ]
+            }
+          },
+          "status": "Completed"
+        },
+        "wageType": { "id": 3, "name": "Fixed Rate" },
+        "workType": { "id": 12, "name": "Painting" },
+        "worker": { "id": 7, "name": "Vijay" },
+        "workedQuantity": "40",
+        "unit": { "id": 28, "name": "litre" },
+        "shift": { "id": 4, "name": "Night Shift" },
+        "workMode": { "id": 3, "name": "Rework" },
+        "notes": "finish before deadline",
+        "attendanceSplit": [{ "workerRoleId": "5", "noOfPersons": "4" }],
+        "id": 7
       },
-      "workMode": {
-        "id": 1,
-        "isActive": false,
-        "name": "Regular",
-        "note": "First Entry"
-      },
-      "notes": "hi",
-      "attendanceSplit": [
-        {
-          "workerRoleId": "3",
-          "noOfPersons": "2"
-        }
-      ],
-      "uploadedImages": [
-        {
-          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_c8316675-da4a-4b0c-aad8-272ac20963d0.jpg",
-          "type": "image/jpeg",
-          "name": "1000000040.jpg"
-        }
-      ],
-      "id": 5
-    },
-    {
-      "date": "04/05/2025",
-      "siteId": "4",
-      "siteName": "Salem Site",
-      "wageTypeName": "Rate Work",
-      "workTypeName": "Painting",
-      "worker": "arun",
-      "wageTypeId": "2",
-      "workTypeId": "2",
-      "workerId": "7",
-      "workedQuantity": "15",
-      "unitId": "17",
-      "shiftId": "1",
-      "workModeId": "2",
-      "notes": "completed",
-      "attendanceSplit": [
-        {
-          "workerRoleId": "4",
-          "noOfPersons": "3"
-        }
-      ],
-      "uploadedImages": [
-        {
-          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_5b3a5678-8b6c-4cba-b6f9-123abc123456.jpg",
-          "type": "image/jpeg",
-          "name": "1000000041.jpg"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "date": "05/05/2025",
-      "siteId": "5",
-      "siteName": "Coimbatore Site",
-      "wageTypeName": "Contract",
-      "workTypeName": "Welding",
-      "worker": "rajesh",
-      "wageTypeId": "3",
-      "workTypeId": "3",
-      "workerId": "8",
-      "workedQuantity": "30",
-      "unitId": "18",
-      "shiftId": "3",
-      "workModeId": "1",
-      "notes": "pending review",
-      "attendanceSplit": [
-        {
-          "workerRoleId": "5",
-          "noOfPersons": "4"
-        }
-      ],
-      "uploadedImages": [
-        {
-          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_abcdef12-3456-7890-abcd-1234567890ab.jpg",
-          "type": "image/jpeg",
-          "name": "1000000042.jpg"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "date": "06/05/2025",
-      "siteId": "6",
-      "siteName": "Madurai Site",
-      "wageTypeName": "Piece Rate",
-      "workTypeName": "Masonry",
-      "worker": "manoj",
-      "wageTypeId": "4",
-      "workTypeId": "4",
-      "workerId": "9",
-      "workedQuantity": "50",
-      "unitId": "19",
-      "shiftId": "2",
-      "workModeId": "3",
-      "notes": "urgent work",
-      "attendanceSplit": [
-        {
-          "workerRoleId": "6",
-          "noOfPersons": "5"
-        }
-      ],
-      "uploadedImages": [
-        {
-          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_11223344-5566-7788-99aa-bbccddeeff00.jpg",
-          "type": "image/jpeg",
-          "name": "1000000043.jpg"
-        }
-      ],
-      "id": 4
-    }
+      {
+        "date": "2025-03-09",
+        "site": {
+          "id": 6,
+          "name": "Madurai Site",
+          "client": {
+            "id": 25,
+            "name": "Bala",
+            "contact": {
+              "id": 170,
+              "name": "Bala P",
+              "contactDetails": [
+                { "contactType": "Phone", "value": "6666666666" },
+                { "contactType": "Email", "value": "bala@gmail.com" }
+              ]
+            }
+          },
+          "status": "Yet to start"
+        },
+        "wageType": { "id": 4, "name": "Daily Wage" },
+        "workType": { "id": 13, "name": "Roofing" },
+        "worker": { "id": 8, "name": "Santhosh" },
+        "workedQuantity": "20",
+        "unit": { "id": 29, "name": "meters" },
+        "shift": { "id": 5, "name": "Weekend Shift" },
+        "workMode": { "id": 4, "name": "Special Work" },
+        "notes": "weekend task",
+        "attendanceSplit": [{ "workerRoleId": "6", "noOfPersons": "1" }],
+        "id": 8
+      }
+    ]
   ],
   "WageType": [
     {
