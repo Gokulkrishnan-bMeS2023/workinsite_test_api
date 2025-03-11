@@ -427,129 +427,127 @@
     }
   ],
   "Attendance": [
-    [
-      {
-        "date": "2025-03-06",
-        "site": {
-          "id": 3,
-          "name": "Erode Site",
-          "client": {
-            "id": 12,
-            "name": "Kumar",
-            "note": "",
-            "contact": {
-              "id": 148,
-              "name": "Vicky P",
-              "contactDetails": [
-                { "contactType": "Phone", "value": "8946321650" },
-                { "contactType": "Email", "value": "vicky@gmail.com" }
-              ]
-            }
-          },
-          "status": "Yet to start"
+    {
+      "date": "2025-03-06",
+      "site": {
+        "id": 3,
+        "name": "Erode Site",
+        "client": {
+          "id": 12,
+          "name": "Kumar",
+          "note": "",
+          "contact": {
+            "id": 148,
+            "name": "Vicky P",
+            "contactDetails": [
+              { "contactType": "Phone", "value": "8946321650" },
+              { "contactType": "Email", "value": "vicky@gmail.com" }
+            ]
+          }
         },
-        "wageType": { "id": 1, "name": "Rate Work" },
-        "workType": { "id": 10, "name": "Compound Wall" },
-        "worker": { "id": 5, "name": "Arjun Kumar" },
-        "workedQuantity": "25",
-        "unit": { "id": 26, "name": "sqft" },
-        "shift": { "id": 2, "name": "Full Day" },
-        "workMode": { "id": 1, "name": "Regular" },
-        "notes": "hi",
-        "attendanceSplit": [{ "workerRoleId": "3", "noOfPersons": "2" }],
-        "id": 5
+        "status": "Yet to start"
       },
-      {
-        "date": "2025-03-07",
-        "site": {
-          "id": 4,
-          "name": "Coimbatore Site",
-          "client": {
-            "id": 15,
-            "name": "Ravi",
-            "contact": {
-              "id": 149,
-              "name": "Ravi S",
-              "contactDetails": [
-                { "contactType": "Phone", "value": "8888888888" },
-                { "contactType": "Email", "value": "ravi@gmail.com" }
-              ]
-            }
-          },
-          "status": "In Progress"
+      "wageType": { "id": 1, "name": "Rate Work" },
+      "workType": { "id": 10, "name": "Compound Wall" },
+      "worker": { "id": 5, "name": "Arjun Kumar" },
+      "workedQuantity": "25",
+      "unit": { "id": 26, "name": "sqft" },
+      "shift": { "id": 2, "name": "Full Day" },
+      "workMode": { "id": 1, "name": "Regular" },
+      "notes": "hi",
+      "attendanceSplit": [{ "workerRoleId": "3", "noOfPersons": "2" }],
+      "id": 5
+    },
+    {
+      "date": "2025-03-07",
+      "site": {
+        "id": 4,
+        "name": "Coimbatore Site",
+        "client": {
+          "id": 15,
+          "name": "Ravi",
+          "contact": {
+            "id": 149,
+            "name": "Ravi S",
+            "contactDetails": [
+              { "contactType": "Phone", "value": "8888888888" },
+              { "contactType": "Email", "value": "ravi@gmail.com" }
+            ]
+          }
         },
-        "wageType": { "id": 2, "name": "Hourly Work" },
-        "workType": { "id": 11, "name": "Plastering" },
-        "worker": { "id": 6, "name": "Ramesh" },
-        "workedQuantity": "30",
-        "unit": { "id": 27, "name": "sqmt" },
-        "shift": { "id": 3, "name": "Half Day" },
-        "workMode": { "id": 2, "name": "Extra Work" },
-        "notes": "urgent work",
-        "attendanceSplit": [{ "workerRoleId": "4", "noOfPersons": "3" }],
-        "id": 6
+        "status": "In Progress"
       },
-      {
-        "date": "2025-03-08",
-        "site": {
-          "id": 5,
-          "name": "Salem Site",
-          "client": {
-            "id": 20,
-            "name": "Suresh",
-            "contact": {
-              "id": 160,
-              "name": "Suresh B",
-              "contactDetails": [
-                { "contactType": "Phone", "value": "7777777777" },
-                { "contactType": "Email", "value": "suresh@gmail.com" }
-              ]
-            }
-          },
-          "status": "Completed"
+      "wageType": { "id": 2, "name": "Hourly Work" },
+      "workType": { "id": 11, "name": "Plastering" },
+      "worker": { "id": 6, "name": "Ramesh" },
+      "workedQuantity": "30",
+      "unit": { "id": 27, "name": "sqmt" },
+      "shift": { "id": 3, "name": "Half Day" },
+      "workMode": { "id": 2, "name": "Extra Work" },
+      "notes": "urgent work",
+      "attendanceSplit": [{ "workerRoleId": "4", "noOfPersons": "3" }],
+      "id": 6
+    },
+    {
+      "date": "2025-03-08",
+      "site": {
+        "id": 5,
+        "name": "Salem Site",
+        "client": {
+          "id": 20,
+          "name": "Suresh",
+          "contact": {
+            "id": 160,
+            "name": "Suresh B",
+            "contactDetails": [
+              { "contactType": "Phone", "value": "7777777777" },
+              { "contactType": "Email", "value": "suresh@gmail.com" }
+            ]
+          }
         },
-        "wageType": { "id": 3, "name": "Fixed Rate" },
-        "workType": { "id": 12, "name": "Painting" },
-        "worker": { "id": 7, "name": "Vijay" },
-        "workedQuantity": "40",
-        "unit": { "id": 28, "name": "litre" },
-        "shift": { "id": 4, "name": "Night Shift" },
-        "workMode": { "id": 3, "name": "Rework" },
-        "notes": "finish before deadline",
-        "attendanceSplit": [{ "workerRoleId": "5", "noOfPersons": "4" }],
-        "id": 7
+        "status": "Completed"
       },
-      {
-        "date": "2025-03-09",
-        "site": {
-          "id": 6,
-          "name": "Madurai Site",
-          "client": {
-            "id": 25,
-            "name": "Bala",
-            "contact": {
-              "id": 170,
-              "name": "Bala P",
-              "contactDetails": [
-                { "contactType": "Phone", "value": "6666666666" },
-                { "contactType": "Email", "value": "bala@gmail.com" }
-              ]
-            }
-          },
-          "status": "Yet to start"
+      "wageType": { "id": 3, "name": "Fixed Rate" },
+      "workType": { "id": 12, "name": "Painting" },
+      "worker": { "id": 7, "name": "Vijay" },
+      "workedQuantity": "40",
+      "unit": { "id": 28, "name": "litre" },
+      "shift": { "id": 4, "name": "Night Shift" },
+      "workMode": { "id": 3, "name": "Rework" },
+      "notes": "finish before deadline",
+      "attendanceSplit": [{ "workerRoleId": "5", "noOfPersons": "4" }],
+      "id": 7
+    },
+    {
+      "date": "2025-03-09",
+      "site": {
+        "id": 6,
+        "name": "Madurai Site",
+        "client": {
+          "id": 25,
+          "name": "Bala",
+          "contact": {
+            "id": 170,
+            "name": "Bala P",
+            "contactDetails": [
+              { "contactType": "Phone", "value": "6666666666" },
+              { "contactType": "Email", "value": "bala@gmail.com" }
+            ]
+          }
         },
-        "wageType": { "id": 4, "name": "Daily Wage" },
-        "workType": { "id": 13, "name": "Roofing" },
-        "worker": { "id": 8, "name": "Santhosh" },
-        "workedQuantity": "20",
-        "unit": { "id": 29, "name": "meters" },
-        "shift": { "id": 5, "name": "Weekend Shift" },
-        "workMode": { "id": 4, "name": "Special Work" },
-        "notes": "weekend task",
-        "attendanceSplit": [{ "workerRoleId": "6", "noOfPersons": "1" }],
-        "id": 8
-      }
-    ]
+        "status": "Yet to start"
+      },
+      "wageType": { "id": 4, "name": "Daily Wage" },
+      "workType": { "id": 13, "name": "Roofing" },
+      "worker": { "id": 8, "name": "Santhosh" },
+      "workedQuantity": "20",
+      "unit": { "id": 29, "name": "meters" },
+      "shift": { "id": 5, "name": "Weekend Shift" },
+      "workMode": { "id": 4, "name": "Special Work" },
+      "notes": "weekend task",
+      "attendanceSplit": [{ "workerRoleId": "6", "noOfPersons": "1" }],
+      "id": 8
+    }
   ],
   "WageType": [
     {
