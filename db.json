@@ -126,6 +126,10 @@
   ],
   "WorkType": [
     {
+      "name": "compound wall",
+      "id": 10
+    },
+    {
       "name": "Furniture making",
       "id": 1
     },
@@ -424,7 +428,7 @@
   ],
   "Attendance": [
     {
-      "date": "2025-03-06T18:30:00.000Z",
+      "date": "2025-03-06",
       "siteId": "3",
       "siteName": "Erode Site",
       "wageTypeName": "Rate Work",
@@ -452,6 +456,239 @@
         }
       ],
       "id": 1
+    },
+    {
+      "date": "2025-03-06",
+      "site": {
+        "id": 3,
+        "name": "Erode Site",
+        "client": {
+          "id": 12,
+          "name": "Kumar",
+          "note": "",
+          "contact": {
+            "id": 148,
+            "name": "Vicky P",
+            "contactDetails": [
+              {
+                "contactType": "Phone",
+                "value": "8946321650"
+              },
+              {
+                "contactType": "Phone",
+                "value": "9045789871"
+              },
+              {
+                "contactType": "Phone",
+                "value": "1111111111"
+              },
+              {
+                "contactType": "Email",
+                "value": "vicky@gmail.com"
+              },
+              {
+                "contactType": "Address",
+                "value": "68/169, Amman street, Erode, 638312"
+              }
+            ]
+          },
+          "kycDetails": [
+            {
+              "kycType": "AADHAAR",
+              "value": "216167293627"
+            },
+            {
+              "kycType": "PAN",
+              "value": "ABCTY1234D"
+            },
+            {
+              "kycType": "GST",
+              "value": "22ABCTY1234D1Z5"
+            }
+          ]
+        },
+        "googleLocation": "https://maps.app.goo.gl/o67GefJLS4WfxFtB89",
+        "contact": {
+          "id": 157,
+          "name": "Kumar V A",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "9854621374"
+            },
+            {
+              "contactType": "Phone",
+              "value": "9846521398"
+            },
+            {
+              "contactType": "Email",
+              "value": "kumar@gmail.com"
+            },
+            {
+              "contactType": "Address",
+              "value": "5/12 MG Road, Coimbatore - 641001"
+            }
+          ]
+        },
+        "note": "Next month starts",
+        "supervisors": [
+          {
+            "id": 83,
+            "name": "Gokul",
+            "phone": "9846521332",
+            "language": "ta",
+            "role": {
+              "id": 3,
+              "name": "Supervisor"
+            },
+            "note": "",
+            "isActive": true
+          },
+          {
+            "id": 84,
+            "name": "Dinesh Kumar",
+            "phone": "9846513287",
+            "language": "ta",
+            "role": {
+              "id": 3,
+              "name": "Supervisor"
+            },
+            "note": "",
+            "isActive": true
+          },
+          {
+            "id": 82,
+            "name": "Dinesh",
+            "phone": "9864512878",
+            "language": "ta",
+            "role": {
+              "id": 3,
+              "name": "Supervisor"
+            },
+            "note": null,
+            "isActive": true
+          }
+        ],
+        "status": "Yet to start"
+      },
+      "wageType": {
+        "id": 1,
+        "name": "Rate Work"
+      },
+      "workType": {
+        "name": "compound wall",
+        "id": 10
+      },
+      "worker": {
+        "id": 5,
+        "name": "Arjun Kumar",
+        "gender": "MALE",
+        "dateOfBirth": "22/07/1985",
+        "workerCategory": {
+          "id": 9,
+          "isActive": true,
+          "workerCategoryName": "Painter",
+          "note": ""
+        },
+        "contact": {
+          "id": 157,
+          "name": "Kumar V A",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "9854621374"
+            },
+            {
+              "contactType": "Phone",
+              "value": "9846521398"
+            },
+            {
+              "contactType": "Email",
+              "value": "kumar@gmail.com"
+            },
+            {
+              "contactType": "Address",
+              "value": "5/12 MG Road, Coimbatore - 641001"
+            }
+          ]
+        },
+        "kycDetails": [
+          {
+            "kycType": "AADHAAR",
+            "value": "216167293627"
+          },
+          {
+            "kycType": "PAN",
+            "value": "ABCTY1234D"
+          },
+          {
+            "kycType": "GST",
+            "value": "22ABCTY1234D1Z5"
+          }
+        ],
+        "bankAccounts": [
+          {
+            "accountName": "Arjun",
+            "accountNumber": "987897564313165494",
+            "ifscCode": "SBIN0001234"
+          },
+          {
+            "accountName": "Kumar",
+            "accountNumber": "987132654987978978",
+            "ifscCode": "SBIN0001234"
+          }
+        ],
+        "upiDetails": [
+          {
+            "upiType": "GPAY",
+            "value": "9865413265"
+          },
+          {
+            "upiType": "UPI_ID",
+            "value": "arjun@oksbi"
+          },
+          {
+            "upiType": "PHONEPE",
+            "value": "8975413567"
+          }
+        ],
+        "note": "",
+        "isActive": true
+      },
+      "workedQuantity": "25",
+      "unit": {
+        "id": 26,
+        "isActive": true,
+        "name": "sqft",
+        "note": null
+      },
+      "shift": {
+        "id": 2,
+        "isActive": true,
+        "name": "Full Day",
+        "note": "Standard Shift"
+      },
+      "workMode": {
+        "id": 1,
+        "isActive": false,
+        "name": "Regular",
+        "note": "First Entry"
+      },
+      "notes": "hi",
+      "attendanceSplit": [
+        {
+          "workerRoleId": "3",
+          "noOfPersons": "2"
+        }
+      ],
+      "uploadedImages": [
+        {
+          "uri": "file:///data/user/0/com.workinsite/cache/rn_image_picker_lib_temp_c8316675-da4a-4b0c-aad8-272ac20963d0.jpg",
+          "type": "image/jpeg",
+          "name": "1000000040.jpg"
+        }
+      ],
+      "id": 5
     },
     {
       "date": "04/05/2025",
