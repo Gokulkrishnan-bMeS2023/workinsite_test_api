@@ -381,49 +381,25 @@
     }
   ],
   "WorkMode": [
-    { "id": 1, "isActive": false, "name": "Regular", "note": "First Entry" },
-    { "id": 2, "isActive": true, "name": "Overtime", "note": "First Entry" },
-    { "id": 3, "isActive": false, "name": "Rework", "note": "First Entry" },
-    {
-      "id": 4,
-      "isActive": true,
-      "name": "Night Shift",
-      "note": "Second Entry"
-    },
-    {
-      "id": 5,
-      "isActive": false,
-      "name": "Weekend Work",
-      "note": "Second Entry"
-    },
-    {
-      "id": 6,
-      "isActive": true,
-      "name": "Emergency Task",
-      "note": "Second Entry"
-    }
+    { "id": 1, "name": "Planned Work" },
+    { "id": 2, "name": "Extra Work" },
+    { "id": 3, "name": "Rework" }
   ],
   "Shift": [
-    { "id": 1, "isActive": false, "name": "Half Day", "note": "Morning Shift" },
-    { "id": 2, "isActive": true, "name": "Full Day", "note": "Standard Shift" },
-    { "id": 3, "isActive": false, "name": "1.5 Day", "note": "Extended Shift" },
+    { "id": 1, "name": "Half Day" },
+    { "id": 2, "name": "Full Day" },
+    { "id": 3, "name": "1.5 Day" },
     {
       "id": 4,
-      "isActive": true,
-      "name": "Night Shift",
-      "note": "Overnight Work"
+      "name": "Night Shift"
     },
     {
       "id": 5,
-      "isActive": false,
-      "name": "Weekend Shift",
-      "note": "Saturday & Sunday"
+      "name": "Weekend Shift"
     },
     {
       "id": 6,
-      "isActive": true,
-      "name": "On-Call",
-      "note": "Emergency Availability"
+      "name": "On-Call"
     }
   ],
   "Attendance": [
@@ -453,9 +429,13 @@
       "workedQuantity": "25",
       "unit": { "id": 26, "name": "sqft" },
       "shift": { "id": 2, "name": "Full Day" },
-      "workMode": { "id": 1, "name": "Regular" },
+      "workMode": { "id": 1, "name": "Planned Work" },
       "notes": "hi",
-      "attendanceSplit": [{ "workerRoleId": "3", "noOfPersons": "2" }],
+      "attendanceSplit": [
+        { "workerRoleId": "1", "noOfPersons": "5" },
+        { "workerRoleId": "2", "noOfPersons": "3" },
+        { "workerRoleId": "3", "noOfPersons": "1" }
+      ],
       "uploadedImages": [
         {
           "name": "1000000043.jpg",
