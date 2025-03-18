@@ -430,7 +430,7 @@
       "unit": { "id": 26, "name": "sqft" },
       "shift": { "id": 2, "name": "Full Day" },
       "workMode": { "id": 1, "name": "Planned Work" },
-      "notes": "hi",
+      "notes": "add some notes about this site",
       "attendanceSplit": [
         {
           "workerRole": {
