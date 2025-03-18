@@ -432,9 +432,27 @@
       "workMode": { "id": 1, "name": "Planned Work" },
       "notes": "hi",
       "attendanceSplit": [
-        { "workerRoleId": "1", "noOfPersons": "5" },
-        { "workerRoleId": "2", "noOfPersons": "3" },
-        { "workerRoleId": "3", "noOfPersons": "1" }
+        {
+          "workerRole": {
+            "id": 1,
+            "name": "Mason"
+          },
+          "noOfPersons": "5"
+        },
+        {
+          "workerRole": {
+            "id": 2,
+            "name": "Woman Mazdoor"
+          },
+          "noOfPersons": "3"
+        },
+        {
+          "workerRole": {
+            "id": 3,
+            "name": "Male Masdoor"
+          },
+          "noOfPersons": "1"
+        }
       ],
       "uploadedImages": [
         {
