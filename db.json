@@ -170,34 +170,36 @@
     {
       "site": {
         "name": "Erode Site",
-        "id": 1
+        "id": 3
       },
-      "siteId": "3",
-      "workTypeId": "2",
       "workType": {
         "name": "Wooden framing",
         "id": 2
       },
-      "unitId": "2",
-      "totalRate": "100000",
-      "totalQuantity": "2000",
+      "unit": {
+        "name": "sqft",
+        "id": 26
+      },
+      "totalRate": 100000,
+      "totalQuantity": 2000,
       "notes": "add some notes about this site",
       "id": 1
     },
     {
       "site": {
         "name": "Chennai Site",
-        "id": 2
+        "id": 4
       },
-      "siteId": "4",
-      "workTypeId": "3",
       "workType": {
         "name": "Cabinet installation",
         "id": 3
       },
-      "unitId": "1",
-      "totalRate": "200000",
-      "totalQuantity": "2500",
+      "unit": {
+        "name": "meter",
+        "id": 16
+      },
+      "totalRate": 200000,
+      "totalQuantity": 2500,
       "notes": "add some notes about this site",
       "id": 2
     }
