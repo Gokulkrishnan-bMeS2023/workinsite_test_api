@@ -127,17 +127,17 @@
       "workerCategoryName": "Mason",
       "workerRole": [
         {
-          "name": "Senior Mason",
+          "name": "Mason",
           "salaryPerShift": 1700,
           "hoursPerShift": 8
         },
         {
-          "name": "Junior Mason",
+          "name": "Male Masdoor",
           "salaryPerShift": 1100,
           "hoursPerShift": 8
         },
         {
-          "name": "Mason Helper",
+          "name": "Woman Mazdoor",
           "salaryPerShift": 700,
           "hoursPerShift": 8
         }
