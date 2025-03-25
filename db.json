@@ -5,18 +5,18 @@
       "workerRole": [
         {
           "name": "Senior Carpenter",
-          "salaryPerShift": "1500",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1500,
+          "hoursPerShift": 8
         },
         {
           "name": "Junior Carpenter",
-          "salaryPerShift": "1000",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1000,
+          "hoursPerShift": 8
         },
         {
           "name": "Woodworker",
-          "salaryPerShift": "800",
-          "hoursPerShift": "8"
+          "salaryPerShift": 800,
+          "hoursPerShift": 8
         }
       ],
       "workType": [
@@ -32,18 +32,18 @@
       "workerRole": [
         {
           "name": "Senior Electrician",
-          "salaryPerShift": "1600",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1600,
+          "hoursPerShift": 8
         },
         {
           "name": "Apprentice Electrician",
-          "salaryPerShift": "900",
-          "hoursPerShift": "8"
+          "salaryPerShift": 900,
+          "hoursPerShift": 8
         },
         {
           "name": "Helper",
-          "salaryPerShift": "500",
-          "hoursPerShift": "8"
+          "salaryPerShift": 500,
+          "hoursPerShift": 8
         }
       ],
       "workType": [
@@ -59,18 +59,18 @@
       "workerRole": [
         {
           "name": "Professional Painter",
-          "salaryPerShift": "1400",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1400,
+          "hoursPerShift": 8
         },
         {
           "name": "Assistant Painter",
-          "salaryPerShift": "850",
-          "hoursPerShift": "8"
+          "salaryPerShift": 850,
+          "hoursPerShift": 8
         },
         {
           "name": "Surface Preparer",
-          "salaryPerShift": "600",
-          "hoursPerShift": "8"
+          "salaryPerShift": 600,
+          "hoursPerShift": 8
         }
       ],
       "workType": ["Interior painting", "Exterior painting", "Spray painting"],
@@ -82,18 +82,18 @@
       "workerRole": [
         {
           "name": "Master Plumber",
-          "salaryPerShift": "1700",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1700,
+          "hoursPerShift": 8
         },
         {
           "name": "Journeyman Plumber",
-          "salaryPerShift": "1100",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1100,
+          "hoursPerShift": 8
         },
         {
           "name": "Plumbing Helper",
-          "salaryPerShift": "600",
-          "hoursPerShift": "8"
+          "salaryPerShift": 600,
+          "hoursPerShift": 8
         }
       ],
       "workType": ["Pipe fitting", "Leak repairs", "Bathroom installation"],
@@ -105,18 +105,18 @@
       "workerRole": [
         {
           "name": "Senior Welder",
-          "salaryPerShift": "1800",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1800,
+          "hoursPerShift": 8
         },
         {
           "name": "Junior Welder",
-          "salaryPerShift": "1200",
-          "hoursPerShift": "8"
+          "salaryPerShift": 1200,
+          "hoursPerShift": 8
         },
         {
           "name": "Welding Helper",
-          "salaryPerShift": "700",
-          "hoursPerShift": "8"
+          "salaryPerShift": 700,
+          "hoursPerShift": 8
         }
       ],
       "workType": ["Metal fabrication", "Pipe welding", "Structural welding"],
