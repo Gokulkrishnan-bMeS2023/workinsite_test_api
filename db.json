@@ -75,7 +75,7 @@
       ],
       "workType": ["Interior painting", "Exterior painting", "Spray painting"],
       "note": "\"Skilled painters\"",
-      "id": 4
+      "id": 9
     },
     {
       "workerCategoryName": "plumber",
@@ -122,6 +122,29 @@
       "workType": ["Metal fabrication", "Pipe welding", "Structural welding"],
       "note": "\"Certified welders\"",
       "id": 6
+    },
+    {
+      "workerCategoryName": "Mason",
+      "workerRole": [
+        {
+          "name": "Senior Mason",
+          "salaryPerShift": 1700,
+          "hoursPerShift": 8
+        },
+        {
+          "name": "Junior Mason",
+          "salaryPerShift": 1100,
+          "hoursPerShift": 8
+        },
+        {
+          "name": "Mason Helper",
+          "salaryPerShift": 700,
+          "hoursPerShift": 8
+        }
+      ],
+      "workType": ["Bricklaying", "Concrete work", "Tile setting"],
+      "note": "\"Experienced in residential and commercial masonry\"",
+      "id": 8
     }
   ],
   "WorkType": [
