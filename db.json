@@ -230,11 +230,11 @@
   "Purchase": [
     {
       "billNo": "121212",
-      "supplierId": {
+      "supplier": {
         "id": 10,
         "name": "supplier"
       },
-      "siteId": {
+      "site": {
         "id": 3,
         "name": "Erode Site"
       },
@@ -246,7 +246,7 @@
       "notes": "",
       "purchaseMaterials": [
         {
-          "materialId": {
+          "material": {
             "id": 9,
             "name": "Steel",
             "hsnCode": "12345678",
@@ -257,7 +257,7 @@
               "note": null
             }
           },
-          "unitId": {
+          "unit": {
             "id": 18,
             "isActive": true,
             "name": "kg",
@@ -285,7 +285,7 @@
           ]
         },
         {
-          "materialId": {
+          "material": {
             "id": 8,
             "name": "Bricks",
             "hsnCode": "5555",
@@ -296,7 +296,7 @@
               "note": null
             }
           },
-          "unitId": {
+          "unit": {
             "id": 20,
             "isActive": true,
             "name": "Nos",
@@ -324,11 +324,11 @@
 
     {
       "billNo": "131313",
-      "supplierId": {
+      "supplier": {
         "id": 5,
         "name": "Suresh M"
       },
-      "siteId": {
+      "site": {
         "id": 4,
         "name": "Chennai Site S"
       },
@@ -340,7 +340,7 @@
       "notes": "",
       "purchaseMaterials": [
         {
-          "materialId": {
+          "material": {
             "id": 7,
             "name": "Cement",
             "hsnCode": "123456",
@@ -351,7 +351,7 @@
               "note": null
             }
           },
-          "unitId": {
+          "unit": {
             "id": 9,
             "isActive": false,
             "name": "bag",
@@ -379,11 +379,11 @@
 
     {
       "billNo": "388458",
-      "supplierId": {
+      "supplier": {
         "id": 25,
         "name": "gk"
       },
-      "siteId": {
+      "site": {
         "id": 6,
         "name": "Lavanya"
       },
@@ -395,7 +395,7 @@
       "notes": "",
       "purchaseMaterials": [
         {
-          "materialId": {
+          "material": {
             "id": 8,
             "name": "Bricks",
             "hsnCode": "5555",
@@ -406,7 +406,7 @@
               "note": null
             }
           },
-          "unitId": {
+          "unit": {
             "id": 20,
             "isActive": true,
             "name": "Nos",
@@ -429,7 +429,7 @@
           ]
         },
         {
-          "materialId": {
+          "material": {
             "id": 10,
             "name": "Sand",
             "hsnCode": "2222",
@@ -440,7 +440,7 @@
               "note": null
             }
           },
-          "unitId": {
+          "unit": {
             "id": 27,
             "isActive": true,
             "name": "bags",
@@ -468,11 +468,11 @@
   ],
   "MaterialUsed": [
     {
-      "siteId": {
+      "site": {
         "id": 4,
         "name": "Chennai Site S"
       },
-      "materialId": {
+      "material": {
         "id": 8,
         "name": "Bricks",
         "hsnCode": "5555",
@@ -483,9 +483,9 @@
           "note": null
         }
       },
-      "workModeId": { "id": 1, "name": "Planned Work" },
+      "workMode": { "id": 1, "name": "Planned Work" },
       "quantity": 10000,
-      "unitId": {
+      "unit": {
         "id": 20,
         "isActive": true,
         "name": "Nos",
@@ -496,11 +496,11 @@
       "id": 1
     },
     {
-      "siteId": {
+      "site": {
         "id": 3,
         "name": "Erode Site"
       },
-      "materialId": {
+      "material": {
         "id": 9,
         "name": "Steel",
         "hsnCode": "12345678",
@@ -511,9 +511,9 @@
           "note": null
         }
       },
-      "workModeId": { "id": 2, "name": "Extra Work" },
+      "workMode": { "id": 2, "name": "Extra Work" },
       "quantity": 5000,
-      "unitId": {
+      "unit": {
         "id": 18,
         "isActive": true,
         "name": "kg",
@@ -524,11 +524,11 @@
       "id": 2
     },
     {
-      "siteId": {
+      "site": {
         "id": 6,
         "name": "Lavanya"
       },
-      "materialId": {
+      "material": {
         "id": 7,
         "name": "Cement",
         "hsnCode": "123456",
@@ -539,9 +539,9 @@
           "note": null
         }
       },
-      "workModeId": { "id": 2, "name": "Extra Work" },
+      "workMode": { "id": 2, "name": "Extra Work" },
       "quantity": 2000,
-      "unitId": {
+      "unit": {
         "id": 9,
         "isActive": false,
         "name": "bag",
@@ -552,11 +552,11 @@
       "id": 3
     },
     {
-      "siteId": {
+      "site": {
         "id": 8,
         "name": "Gk"
       },
-      "materialId": {
+      "material": {
         "id": 10,
         "name": "Sand",
         "hsnCode": "2222",
@@ -567,9 +567,9 @@
           "note": null
         }
       },
-      "workModeId": { "id": 1, "name": "Planned Work" },
+      "workMode": { "id": 1, "name": "Planned Work" },
       "quantity": 3000,
-      "unitId": {
+      "unit": {
         "id": 27,
         "isActive": true,
         "name": "bags",
@@ -583,7 +583,7 @@
   "MaterialShifted": [
     {
       "date": "2025-03-27",
-      "materialId": {
+      "material": {
         "id": 9,
         "name": "Steel",
         "hsnCode": "12345678",
@@ -594,17 +594,17 @@
           "note": null
         }
       },
-      "sourceSiteId": {
+      "sourceSite": {
         "id": 3,
         "name": "Erode Site"
       },
-      "targetSiteId": {
+      "targetSite": {
         "id": 4,
         "name": "Chennai Site S"
       },
       "quantity": 1000,
       "notes": "",
-      "unitId": {
+      "unit": {
         "id": 18,
         "isActive": true,
         "name": "kg",
@@ -614,7 +614,7 @@
     },
     {
       "date": "2025-03-19",
-      "materialId": {
+      "material": {
         "id": 8,
         "name": "Bricks",
         "hsnCode": "5555",
@@ -625,17 +625,17 @@
           "note": null
         }
       },
-      "sourceSiteId": {
+      "sourceSite": {
         "id": 2,
         "name": "Madurai Site"
       },
-      "targetSiteId": {
+      "targetSite": {
         "id": 6,
         "name": "Lavanya"
       },
       "quantity": 100000,
       "notes": "",
-      "unitId": {
+      "unit": {
         "id": 20,
         "isActive": true,
         "name": "Nos",
@@ -645,7 +645,7 @@
     },
     {
       "date": "2025-03-16",
-      "materialId": {
+      "material": {
         "id": 7,
         "name": "Cement",
         "hsnCode": "123456",
@@ -656,17 +656,17 @@
           "note": null
         }
       },
-      "sourceSiteId": {
+      "sourceSite": {
         "id": 8,
         "name": "Gk"
       },
-      "targetSiteId": {
+      "targetSite": {
         "id": 3,
         "name": "Erode Site"
       },
       "quantity": 2000,
       "notes": "",
-      "unitId": {
+      "unit": {
         "id": 9,
         "isActive": false,
         "name": "bag",
