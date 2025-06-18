@@ -1,7 +1,4 @@
 {
-  "ClientTransaction": [],
-  "SupplierTransaction": [],
-  "WorkerTransaction": [],
   "workerCategory": [
     {
       "workerCategoryName": "carpenter",
@@ -972,5 +969,224 @@
       "id": 5,
       "name": "Helper"
     }
-  ]
+  ],
+  "ClientTransaction": [
+    {
+      "client": {
+        "id": 87,
+        "name": "gokul",
+        "note": "notessss",
+        "contact": {
+          "id": 172,
+          "name": "gokulkty",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "9855855478"
+            },
+            {
+              "contactType": "Phone",
+              "value": "3434343444"
+            },
+            {
+              "contactType": "Phone",
+              "value": "3333333333"
+            },
+            {
+              "contactType": "Phone",
+              "value": "4444444444"
+            },
+            {
+              "contactType": "Phone",
+              "value": "5555555555"
+            },
+            {
+              "contactType": "Email",
+              "value": "gokulkrishnanbmesolutions20092002@gmail.com"
+            },
+            {
+              "contactType": "Email",
+              "value": "email1@gmail.com"
+            },
+            {
+              "contactType": "Email",
+              "value": "mail2@gmail.com"
+            },
+            {
+              "contactType": "Email",
+              "value": "email3@gamil.com"
+            },
+            {
+              "contactType": "Email",
+              "value": "email4@gamil.com"
+            },
+            {
+              "contactType": "Address",
+              "value": "address 123"
+            },
+            {
+              "contactType": "Address",
+              "value": "1923 c sathi nagar chettiyarmil 642113"
+            },
+            {
+              "contactType": "Address",
+              "value": "address 2"
+            },
+            {
+              "contactType": "Address",
+              "value": "address "
+            },
+            {
+              "contactType": "Address",
+              "value": "address 3"
+            }
+          ]
+        },
+        "kycDetails": []
+      },
+      "date": "18/06/2025",
+      "amount": "100000",
+      "paymentMethod": "Cash",
+      "remark": "initial payment",
+      "id": 1
+    },
+    {
+      "client": {
+        "id": 6,
+        "name": "Raja V",
+        "note": "",
+        "contact": {
+          "id": 148,
+          "name": "Vicky P",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "8946321650"
+            },
+            {
+              "contactType": "Phone",
+              "value": "9045789871"
+            },
+            {
+              "contactType": "Phone",
+              "value": "1111111111"
+            },
+            {
+              "contactType": "Email",
+              "value": "vicky@gmail.com"
+            },
+            {
+              "contactType": "Address",
+              "value": "68/169, Amman street, Erode, 638312"
+            }
+          ]
+        },
+        "kycDetails": [
+          {
+            "kycType": "AADHAAR",
+            "value": "216167293627"
+          },
+          {
+            "kycType": "PAN",
+            "value": "ABCTY1234D"
+          },
+          {
+            "kycType": "GST",
+            "value": "22ABCTY1234D1Z5"
+          }
+        ]
+      },
+      "date": "18/06/2025",
+      "amount": "250000",
+      "paymentMethod": "Cheque",
+      "remark": "initial payment",
+      "id": 2
+    },
+    {
+      "client": {
+        "id": 93,
+        "name": "Sam",
+        "note": "",
+        "contact": {
+          "id": 263,
+          "name": "Ram C",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "1111111111"
+            },
+            {
+              "contactType": "Email",
+              "value": "sam@gmail.com"
+            }
+          ]
+        },
+        "kycDetails": [
+          {
+            "kycType": "AADHAAR",
+            "value": "111111111111"
+          }
+        ]
+      },
+      "date": "17/06/2025",
+      "amount": "50000",
+      "paymentMethod": "Bank Transfer",
+      "remark": "",
+      "id": 3
+    },
+    {
+      "client": {
+        "id": 12,
+        "name": "Kumar",
+        "note": "",
+        "contact": {
+          "id": 148,
+          "name": "Vicky P",
+          "contactDetails": [
+            {
+              "contactType": "Phone",
+              "value": "8946321650"
+            },
+            {
+              "contactType": "Phone",
+              "value": "9045789871"
+            },
+            {
+              "contactType": "Phone",
+              "value": "1111111111"
+            },
+            {
+              "contactType": "Email",
+              "value": "vicky@gmail.com"
+            },
+            {
+              "contactType": "Address",
+              "value": "68/169, Amman street, Erode, 638312"
+            }
+          ]
+        },
+        "kycDetails": [
+          {
+            "kycType": "AADHAAR",
+            "value": "216167293627"
+          },
+          {
+            "kycType": "PAN",
+            "value": "ABCTY1234D"
+          },
+          {
+            "kycType": "GST",
+            "value": "22ABCTY1234D1Z5"
+          }
+        ]
+      },
+      "date": "16/06/2025",
+      "amount": "25000",
+      "paymentMethod": "UPI",
+      "remark": "advance payment",
+      "id": 4
+    }
+  ],
+  "SupplierTransaction": [],
+  "WorkerTransaction": []
 }
