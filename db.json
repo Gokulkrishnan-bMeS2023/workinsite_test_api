@@ -1,4 +1,7 @@
 {
+  "ClientTransaction": [],
+  "SupplierTransaction": [],
+  "WorkerTransaction": [],
   "workerCategory": [
     {
       "workerCategoryName": "carpenter",
